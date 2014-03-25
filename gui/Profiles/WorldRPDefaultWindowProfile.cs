@@ -1,0 +1,47 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiControlProfile(WorldRPDefaultWindowProfile) {
+   tab = "0";
+   canKeyFocus = "0";
+   mouseOverSelected = "0";
+   modal = "1";
+   opaque = "1";
+   fillColor = "200 200 200 255";
+   fillColorHL = "255 170 10 100";
+   fillColorNA = "255 170 10 100";
+   border = "2";
+   borderThickness = "4";
+   borderColor = "255 255 255 255";
+   borderColorHL = "128 128 128 255";
+   borderColorNA = "64 64 64 255";
+   fontType = "Impact";
+   fontSize = "22";
+   fontColors[0] = "255 255 255 255";
+   fontColors[1] = "255 255 255 255";
+   fontColors[2] = "0 0 0 255";
+   fontColors[3] = "200 200 200 255";
+   fontColors[4] = "0 0 204 255";
+   fontColors[5] = "85 26 139 255";
+   fontColors[6] = "0 0 0 0";
+   fontColors[7] = "0 0 0 0";
+   fontColors[8] = "0 0 0 0";
+   fontColors[9] = "0 0 0 0";
+   fontColor = "255 255 255 255";
+   fontColorHL = "255 255 255 255";
+   fontColorNA = "0 0 0 255";
+   fontColorSEL = "200 200 200 255";
+   fontColorLink = "255 170 10 255";
+   fontColorLinkHL = "0 255 255 255";
+   doFontOutline = "1";
+   fontOutlineColor = "255 255 255 255";
+   justify = "left";
+   textOffset = "5 2";
+   autoSizeWidth = "0";
+   autoSizeHeight = "0";
+   returnTab = "0";
+   numbersOnly = "0";
+   cursorColor = "0 255 255 255";
+   bitmap = "Add-ons/Gamemode_WorldRP/Images/blockWindow.png";
+      hasBitmapArray = "1";
+      text = "WorldRP";
+};
+//--- OBJECT WRITE END ---

@@ -1,0 +1,73 @@
+// WorldRP Official Rank List File
+// Feel free to add/edit/remove ranks
+// If you do not have any experience with script files:
+// To add a class, type out the format below and enter text in the right areas
+//
+// ID (any number here) // Make sure theres not 2 of same #
+//  Name (Name)
+//  Level (Level)
+//  Value (Value)
+//  Color (Color)
+//  Desc (Desc)
+//
+//
+
+// Amatuer Player
+ID 1
+ Name Amatuer Player
+ Level 1
+ Value 500
+ Color 422c05 0.6 0.1 0
+ Desc the lowest of the low
+ UpgradeMsg BLANK
+ Perks NONE
+
+// Low
+ID 2
+ Name Basic Player
+ Level 2
+ Value 1500
+ Color 8f5e08 1 0.5 0
+ Desc the class for those who dont have much
+ UpgradeMsg Congradulations You have \c3Ranked up \c6for the 1st time!
+ Perks NONE
+
+// Average
+ID 3
+ Name Average
+ Level 3
+ Value 6000
+ Color ba9047 1 1 1
+ Desc a class for those who make just enough money
+ UpgradeMsg You are now on your 2nd \c3Rank Up\c6! Nice work makin that \c2$$$\c6!
+ Perks NONE
+
+// Above Average
+ID 4
+ Name Above Average
+ Level 4
+ Value 24000
+ Color fcb437 1 1 0.5
+ Desc this class is for players that are making good money
+ UpgradeMsg Pat yourself on the back you have ranked up and gained your first \c3PERK\c6 because you have $24,000 or more NETWorth(Wallet+Bank)!
+ Perks Income_Raise
+
+// Millionare
+ID 5
+ Name Millionare
+ Level 5
+ Value 1000000
+ Color FFAA00 1 1 0
+ Desc a class of a mid-grade luxary life
+ UpgradeMsg \c6Congraduations, you have \c3ranked up\c6! You now get\c3 1/2 off \c6ALL \c3Vehicle \c6costs. \c2+ \c3Millionare Luxury Perk Added
+ Perks Half_Off_Vehicle_Cost
+
+// High Roller
+ID 6
+ Name High Roller
+ Level 6
+ Value 20000000
+ Color 00FF00 0 1 0
+ Desc top of the food chain and living a luxary life
+ UpgradeMsg \c3Expanding Business Operations\c6(\c3EBO\c6) now pays for your building and vehicle costs due to your abundant finacial status! Enjoy \c3LUXURY\c6!
+ Perks No_Brick_Cost No_Vehicle_Price
